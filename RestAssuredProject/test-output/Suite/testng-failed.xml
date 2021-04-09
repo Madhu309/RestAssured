@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="RestAssuredProject(failed)">
+    <classes>
+      <class name="TestFramework.RestAssuredProject.Third">
+        <methods>
+          <include name="getData"/>
+        </methods>
+      </class> <!-- TestFramework.RestAssuredProject.Third -->
+      <class name="TestFramework.RestAssuredProject.twitter">
+        <methods>
+          <include name="createTweet"/>
+          <include name="getTweet"/>
+        </methods>
+      </class> <!-- TestFramework.RestAssuredProject.twitter -->
+    </classes>
+  </test> <!-- RestAssuredProject(failed) -->
+</suite> <!-- Failed suite [Suite] -->

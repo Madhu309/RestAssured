@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+ <test  name="RestAssuredProject">
+   <classes>
+      <class name="TestFramework.RestAssuredProject.first"/>
+      <class name="TestFramework.RestAssuredProject.Second"/>
+      <class name="TestFramework.RestAssuredProject.Third"/>
+      <class name="TestFramework.RestAssuredProject.twitter"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
